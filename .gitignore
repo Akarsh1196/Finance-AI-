@@ -1,0 +1,13 @@
+# Python
+venv/
+__pycache__/
+
+# Secrets
+.env
+.streamlit/secrets.toml
+
+# Database
+*.db
+
+# Mac
+.DS_Store
