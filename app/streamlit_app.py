@@ -15,6 +15,7 @@ from main_pipeline import run_pipeline
 client_id = st.secrets["GOOGLE_CLIENT_ID"]
 client_secret = st.secrets["GOOGLE_CLIENT_SECRET"]
 redirect_uri = st.secrets["REDIRECT_URI"]
+st.write("DEBUG REDIRECT:", redirect_uri)
 
 # =========================
 # SESSION STATE
